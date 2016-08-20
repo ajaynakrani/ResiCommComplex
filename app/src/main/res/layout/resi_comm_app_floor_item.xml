@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="horizontal"
+        android:background="@color/colorGray">
+
+
+        <TextView
+            android:id="@+id/floor_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:text="99"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:background="@color/colorGray" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1">
+
+        <demo.resicommcomplex.MyGridView
+            android:id="@+id/floor_item_gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:numColumns="6"
+            android:background="#d8d8d8" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

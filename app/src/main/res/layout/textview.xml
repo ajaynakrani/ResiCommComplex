@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resi_app_floor_item_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:paddingTop="3dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/flats_number_tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Flat number"
+        android:textStyle="bold" />
+
+    <!-- <TextView
+         android:id="@+id/flats_staus_tv_item"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="0.5"
+         android:background="@color/colorGray"
+         android:gravity="center"
+         android:text="Available"
+
+         android:textStyle="bold" />-->
+</LinearLayout>
